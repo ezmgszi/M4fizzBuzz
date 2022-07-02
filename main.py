@@ -1,10 +1,10 @@
 
 for i in range(1, 101):
     if i % 3 == 0 and i % 5 == 0:
-        print(str(i) + " fizzbuzz!")
+        print("Fizzbuzz")
     elif i % 5 == 0:
-        print(str(i) + " buzz")
+        print("Buzz")
     elif i % 3 == 0:
-        print(str(i) + " fizz")
+        print("Fizz")
     else:
         print(i)
